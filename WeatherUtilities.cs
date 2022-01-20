@@ -6,7 +6,7 @@ namespace MyUtilities
     {
         static public float FahrenheitToCelsius(float temperatureFahrenheit)
         {
-            return temperatureFahrenheit - 32 / 1.8f;
+            return (temperatureFahrenheit - 32) / 1.8f;
         }
 
         static public float CelsiusToFahrenheit(float temperatureCelsius)
